@@ -37,9 +37,9 @@ Step 04: Cadastrar todos os produtos da lista do banco de dados
 - authors = ["BalbinaRaquel <balbina.rakell@outlook.com>"]
 
 ## Poetry dependencies
-- python = "^3.11"
-- pandas = "^2.2.3"
-- pyautogui = "^0.9.54".
+- python = versão 3.11
+- pandas = versão 2.2.3
+- pyautogui = versão 0.9.54.
 
 ```bash
 # clonar repositório
