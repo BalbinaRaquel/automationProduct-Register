@@ -4,19 +4,23 @@
 
 # Sobre o Projeto
 
-Projeto de automação de tarefas em Python, realizado durante o evento **Jornada Python**, de 07 a 11 de outubro de 2024, organizado pela [Hashtag Programação](https://blp.hashtagtreinamentos.com/links-instagram-hashp?origemurl=hashtag_yt_org_bio_hashp) 
+Projeto de automação na linguagem Python, realizado durante o evento: **Jornada Python** - de 07 a 11 de outubro de 2024 -,
+organizado pela [Hashtag Programação](https://blp.hashtagtreinamentos.com/links-instagram-hashp?origemurl=hashtag_yt_org_bio_hashp).
 
-A automação utiliza uma base de dados de produtos - dados referentes a marca, tipo, categoria, preço e custo, etc -, para cadastrar os produtos no site de uma empresa fictícia fornecido pela Hashtag Programação: [Site de cadastro](https://dlp.hashtagtreinamentos.com/python/intensivao/login).
+A automação utiliza uma base de dados de produtos - dados referentes a marca, tipo, categoria, preço e custo, etc -, 
+para cadastrar os produtos no site de uma empresa fictícia fornecido pela Hashtag Programação: [Sistema Python PowerUp](https://dlp.hashtagtreinamentos.com/python/intensivao/login).
+
 No processo automatizado, realiza-se o login no site, com user name e senha, para entrar no formulário de cadastro de produtos a partir de uma base de dados em formato .csv. 
 Os produtos são cadastrados em sequência, e salvos na base de dados do site de forma automatizada. Imagens de evidências da automação são criadas ao longo do processo. 
 
 ## Estrutura do processo de automação
 
 Use-Case: Automatizar Cadastro de produtos
-Step 01: Entrar no sistema da empresa - https://dlp.hashtagtreinamentos.com/python/intensivao/login
-Step 02: Fazer login
-Step 03: Importar a base de dados
-Step 04: Cadastrar todos os produtos da lista do banco de dados
+
+- **Step 01**: Entrar no sistema da empresa - [Login](https://dlp.hashtagtreinamentos.com/python/intensivao/login)
+- **Step 02**: Fazer login
+- **Step 03**: Importar a base de dados
+- **Step 04**: Cadastrar todos os produtos da lista do banco de dados [Tabela](https://dlp.hashtagtreinamentos.com/python/intensivao/tabela)
 
 ## Layout do site de cadastro **Hashtag Progração**
 ![Sistema Python PowerUp](https://github.com/BalbinaRaquel/automationProduct-Register/blob/main/assets/credenciais.png)
@@ -25,18 +29,18 @@ Step 04: Cadastrar todos os produtos da lista do banco de dados
 
 # Tecnologias utilizadas
 - Python
-- Poetry (gerenciar projeto com ambiente virtual)
+- Poetry (gerenciamento de projeto com ambiente virtual)
 - Pyautogui
-- pandas
+- Pandas
 
-## tool Poetry
+## tool Poetry:
 
 - name = "python-powerup"
 - version = "0.1.0"
 - description = "Case: Automatizar Cadastro de produtos no site da empresa"
 - authors = ["BalbinaRaquel <balbina.rakell@outlook.com>"]
 
-## Poetry dependencies
+## Poetry dependencies:
 - python = versão 3.11
 - pandas = versão 2.2.3
 - pyautogui = versão 0.9.54.
